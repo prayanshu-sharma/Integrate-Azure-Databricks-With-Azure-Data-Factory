@@ -6,10 +6,13 @@
 
 Step-1
 Create Azure Databricks workspace named as product-ws using azure service and type resource name databricks and create with new workspace.
+
 Step2-
 Upload Products.json into blob storage
+
 Step3-
 Moving data from blob storage into Datalake storage by using ADF to do this use copy activity within ADF Pipeline.
+
 Step4-
 Extracting and transforming the data in the datalake using databricks workspace 
 
